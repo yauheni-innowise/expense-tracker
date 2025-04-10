@@ -55,7 +55,7 @@ const ExpenseForm = ({ addExpense }) => {
             onChange={(e) => setCategory(e.target.value)}
             placeholder="e.g., Groceries, Rent, Transportation"
           />
-          <small style={{ color: "#666", display: "block", marginTop: "5px" }}>
+          <small style={{ color: "#666", display: "block", marginTop: "10px" }}>
             Note: Expenses with the same category (case-insensitive) will be
             aggregated in the analysis.
           </small>
